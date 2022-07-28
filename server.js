@@ -6,6 +6,12 @@ const app = express();
 
 app.use(cors());
 
+app.get("/",(req,res)=>{
+    res.send({
+        message:"Welcome to Vacation Mini API v1.0.0"
+    })
+})
+
 app.get("/get-all-locations", (req, res) => {
   res.send([{
     nama: "Kintamani",
