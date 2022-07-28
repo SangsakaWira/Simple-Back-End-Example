@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const port_number = server.listen(process.env.PORT || 8080);
+let port_number = process.env.PORT || 8080;
 
 const app = express();
 
