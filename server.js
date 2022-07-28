@@ -8,7 +8,8 @@ app.use(cors());
 
 app.get("/",(req,res)=>{
     res.send({
-        message:"Welcome to Vacation Mini API v1.0.0"
+        message:"Welcome to Vacation Mini API v1.0.0",
+        endpoint_example:"/get-all-locations"
     })
 })
 
