@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const port_number = server.listen(process.env.PORT || 8080);
 
 const app = express();
 
@@ -21,6 +22,6 @@ app.get("/get-all-locations", (req, res) => {
   }]);
 });
 
-app.listen(3000, (err) => {
+app.listen(port_number, (err) => {
   console.log("Server is running!");
 });
