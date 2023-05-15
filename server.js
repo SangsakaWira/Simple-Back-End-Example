@@ -26,6 +26,18 @@ app.get("/get-all-locations", (req, res) => {
       "https://images.pexels.com/photos/3857215/pexels-photo-3857215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     provinsi: "NTB",
     negara: "Indonesia"
+  },{
+    nama: "Toba Lake",
+    foto:
+      "https://images.pexels.com/photos/15901135/pexels-photo-15901135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    provinsi: "Sumatera Utara",
+    negara: "Indonesia"
+  },{
+    nama: "Raja Ampat",
+    foto:
+      "https://images.pexels.com/photos/10482395/pexels-photo-10482395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    provinsi: "Sumatera Utara",
+    negara: "Indonesia"
   }]);
 });
 
